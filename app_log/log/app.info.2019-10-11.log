@@ -1,0 +1,73 @@
+2019-10-11 22:05:29.453 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarting:50 -Starting FoodSpringBootApplication on DESKTOP-814O8JJ with PID 13584 (E:\Learn\IdeaProjects\FoodSpringBoot\target\classes started by WL in E:\Learn\IdeaProjects\FoodSpringBoot)
+2019-10-11 22:05:29.543 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-10-11 22:05:29.662 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-11 22:05:29.663 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-11 22:05:34.752 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-11 22:05:34.777 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-11 22:05:34.827 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-11 22:05:34.827 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-11 22:05:34.887 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-10-11 22:05:34.888 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-10-11 22:05:34.889 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-10-11 22:05:34.890 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-10-11 22:05:35.168 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-10-11 22:05:35.369 INFO [restartedMain]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-11 22:05:35.379 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 5716 ms
+2019-10-11 22:05:37.883 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 22:05:38.055 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [public/index.html]
+2019-10-11 22:05:38.176 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-11 22:05:38.762 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-11 22:05:38.871 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-11 22:05:38.914 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path '/foodspringboot'
+2019-10-11 22:05:38.917 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarted:59 -Started FoodSpringBootApplication in 10.608 seconds (JVM running for 15.568)
+2019-10-11 22:05:52.432 INFO [http-nio-8080-exec-1]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 22:05:52.436 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-11 22:05:52.448 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 12 ms
+2019-10-11 22:05:52.689 WARN [http-nio-8080-exec-1]o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.logException:198 -Resolved [java.lang.ArithmeticException: / by zero]
+2019-10-11 22:06:41.959 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarting:50 -Starting FoodSpringBootApplication on DESKTOP-814O8JJ with PID 7424 (E:\Learn\IdeaProjects\FoodSpringBoot\target\classes started by WL in E:\Learn\IdeaProjects\FoodSpringBoot)
+2019-10-11 22:06:41.964 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-10-11 22:06:42.015 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-11 22:06:42.015 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-11 22:06:43.228 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-11 22:06:43.241 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-11 22:06:43.248 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-11 22:06:43.248 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-11 22:06:43.253 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-10-11 22:06:43.254 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-10-11 22:06:43.254 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-10-11 22:06:43.254 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-10-11 22:06:43.257 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-10-11 22:06:43.340 INFO [restartedMain]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-11 22:06:43.340 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1325 ms
+2019-10-11 22:06:43.841 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 22:06:43.921 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [public/index.html]
+2019-10-11 22:06:43.964 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-11 22:06:44.113 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-11 22:06:44.150 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-11 22:06:44.175 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path '/foodspringboot'
+2019-10-11 22:06:44.179 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarted:59 -Started FoodSpringBootApplication in 2.596 seconds (JVM running for 3.706)
+2019-10-11 22:06:58.634 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarting:50 -Starting FoodSpringBootApplication on DESKTOP-814O8JJ with PID 12568 (E:\Learn\IdeaProjects\FoodSpringBoot\target\classes started by WL in E:\Learn\IdeaProjects\FoodSpringBoot)
+2019-10-11 22:06:58.638 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-10-11 22:06:58.680 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-11 22:06:58.680 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-11 22:06:59.857 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-11 22:06:59.869 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-11 22:06:59.877 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-11 22:06:59.877 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-11 22:06:59.884 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-10-11 22:06:59.884 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-10-11 22:06:59.884 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-10-11 22:06:59.885 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-10-11 22:06:59.888 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-10-11 22:06:59.973 INFO [restartedMain]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-11 22:06:59.973 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1293 ms
+2019-10-11 22:07:00.476 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 22:07:00.536 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [public/index.html]
+2019-10-11 22:07:00.576 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-11 22:07:00.721 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-11 22:07:00.751 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-11 22:07:00.774 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path '/foodspringboot'
+2019-10-11 22:07:00.778 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarted:59 -Started FoodSpringBootApplication in 2.525 seconds (JVM running for 3.618)
+2019-10-11 22:07:06.020 INFO [http-nio-8080-exec-1]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 22:07:06.020 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-11 22:07:06.032 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 12 ms

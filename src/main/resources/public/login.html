@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!--// Meta tag Keywords -->
+
+    <!-- css files -->
+    <link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
+    <!-- //css files -->
+
+    <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+
+    <!-- web-fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <!-- //web-fonts -->
+    <link rel="stylesheet" href="css/headStyle.css" type="text/css"/>
+    <link rel="stylesheet" href="css/loginStyle.css" type="text/css"/>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        function login() {
+            var data=$("#formdata").serialize();
+            $.ajax({
+                async : true,
+                type:"POST",
+                dataType:"json",
+                url:"home/login",
+                data: data,
+                success:function (data) {
+                    alert(JSON.stringify(data));
+                },
+                error:function (e) {
+                    alert(1);
+                },
+            });
+            
+        }
+    </script>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<header>
+    <div class="top-nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand text-uppercase" href="index.html">Cafe In</a>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- //Navigation -->
+
+<!--Slider-->
+<div class="slider">
+    <div class="callbacks_container">
+        <ul class="rslides" id="slider3">
+            <li>
+                <div class="slider-img1">
+                    <div class="dot">
+                        <div class="container">
+                            <div class="login">
+                                <form id="formdata" class="contact-formdata" method="post">
+                                    <div class="input-field">
+                                        <span>用户名:</span>
+                                        <input id="username" name="username" type="text" placeholder="输入用户名"/>
+                                    </div>
+                                    <div class="input-field">
+                                        <span>密码:</span>
+                                        <input name="password" type="password" placeholder="输入密码"/>
+                                    </div>
+                                    <div class="input-field">
+                                        <button type="button" onclick="login()">登录</button>
+                                        <button type="button">注册</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!--//Slider-->
+
+<!-- footer -->
+<footer>
+    <div class="container py-3 py-md-4">
+    </div>
+</footer>
+<!-- footer -->
+
+<!-- js-scripts -->
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
+<!-- //js -->
+
+<!-- Banner Responsive slider -->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+</script>
+<!-- // Banner Responsive slider -->
+
+<!-- stats -->
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.countup.js"></script>
+<script>
+    $('.counter').countUp();
+</script>
+<!-- //stats -->
+
+<!-- search-bar -->
+<script src="js/main.js"></script>
+<!-- //search-bar -->
+
+<!-- start-smoth-scrolling -->
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+    });
+</script>
+
+<!-- start-smoth-scrolling -->
+
+<!-- jQuery-Photo-filter-lightbox-Gallery-plugin -->
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script src="js/jquery.quicksand.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<!-- //jQuery-Photo-filter-lightbox-Gallery-plugin -->
+
+<!-- //js-scripts -->
+
+</body>
+</html>

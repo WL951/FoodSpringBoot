@@ -1,0 +1,121 @@
+2019-12-20 10:20:28.744 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarting:50 -Starting FoodSpringBootApplication on DESKTOP-814O8JJ with PID 3156 (E:\Learn\IdeaProjects\FoodSpringBoot\target\classes started by WL in E:\Learn\IdeaProjects\FoodSpringBoot)
+2019-12-20 10:20:28.747 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-12-20 10:20:28.832 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-20 10:20:28.833 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-20 10:20:30.585 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-20 10:20:30.588 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-20 10:20:30.638 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-12-20 10:20:31.095 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c057d7ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-20 10:20:31.842 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-12-20 10:20:31.856 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-20 10:20:31.875 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-12-20 10:20:31.880 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-12-20 10:20:31.890 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-20 10:20:31.890 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-20 10:20:31.890 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-20 10:20:31.891 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-20 10:20:31.953 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-20 10:20:32.079 INFO [restartedMain]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring embedded WebApplicationContext
+2019-12-20 10:20:32.079 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3246 ms
+2019-12-20 10:20:32.704 INFO [restartedMain]org.messaginghub.pooled.jms.JmsPoolConnectionFactory.setConnectionFactory:198 -Provided ConnectionFactory implementation is JMS 2.0+ capable.
+2019-12-20 10:20:33.524 INFO [restartedMain]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-12-20 10:20:33.525 INFO [restartedMain]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-12-20 10:20:44.440 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisKeyExpirationListener' defined in file [E:\Learn\IdeaProjects\FoodSpringBoot\target\classes\com\wl\foodspringboot\Utils\RedisKeyExpirationListener.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.56.101:6300
+2019-12-20 10:20:45.576 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-12-20 10:20:45.738 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-20 10:22:12.449 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarting:50 -Starting FoodSpringBootApplication on DESKTOP-814O8JJ with PID 4312 (E:\Learn\IdeaProjects\FoodSpringBoot\target\classes started by WL in E:\Learn\IdeaProjects\FoodSpringBoot)
+2019-12-20 10:22:12.454 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-12-20 10:22:12.498 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-20 10:22:12.499 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-20 10:22:13.167 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-20 10:22:13.169 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-20 10:22:13.192 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-12-20 10:22:13.505 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd62b3bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-20 10:22:13.801 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-12-20 10:22:13.813 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-20 10:22:13.819 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-12-20 10:22:13.820 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-12-20 10:22:13.826 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-20 10:22:13.826 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-20 10:22:13.826 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-20 10:22:13.826 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-20 10:22:13.830 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-20 10:22:13.939 INFO [restartedMain]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring embedded WebApplicationContext
+2019-12-20 10:22:13.940 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1441 ms
+2019-12-20 10:22:14.236 INFO [restartedMain]org.messaginghub.pooled.jms.JmsPoolConnectionFactory.setConnectionFactory:198 -Provided ConnectionFactory implementation is JMS 2.0+ capable.
+2019-12-20 10:22:14.583 INFO [restartedMain]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-12-20 10:22:14.584 INFO [restartedMain]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-12-20 10:22:25.457 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisKeyExpirationListener' defined in file [E:\Learn\IdeaProjects\FoodSpringBoot\target\classes\com\wl\foodspringboot\Utils\RedisKeyExpirationListener.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.56.101:6300
+2019-12-20 10:22:26.607 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-12-20 10:22:26.683 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-20 10:23:27.355 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarting:50 -Starting FoodSpringBootApplication on DESKTOP-814O8JJ with PID 17260 (E:\Learn\IdeaProjects\FoodSpringBoot\target\classes started by WL in E:\Learn\IdeaProjects\FoodSpringBoot)
+2019-12-20 10:23:27.358 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-12-20 10:23:27.403 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-20 10:23:27.404 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-20 10:23:28.058 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-20 10:23:28.060 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-20 10:23:28.082 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-12-20 10:23:28.393 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a80a6811] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-20 10:23:28.699 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-12-20 10:23:28.711 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-20 10:23:28.719 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-12-20 10:23:28.719 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-12-20 10:23:28.724 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-20 10:23:28.724 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-20 10:23:28.725 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-20 10:23:28.726 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-20 10:23:28.729 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-20 10:23:28.848 INFO [restartedMain]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring embedded WebApplicationContext
+2019-12-20 10:23:28.849 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1445 ms
+2019-12-20 10:23:29.222 INFO [restartedMain]org.messaginghub.pooled.jms.JmsPoolConnectionFactory.setConnectionFactory:198 -Provided ConnectionFactory implementation is JMS 2.0+ capable.
+2019-12-20 10:23:29.577 INFO [restartedMain]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-12-20 10:23:29.578 INFO [restartedMain]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-12-20 10:23:30.983 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-20 10:23:31.128 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [public/index.html]
+2019-12-20 10:23:31.220 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-20 10:23:31.962 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-12-20 10:23:32.743 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-12-20 10:23:32.774 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path '/foodspringboot'
+2019-12-20 10:23:32.777 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarted:59 -Started FoodSpringBootApplication in 5.776 seconds (JVM running for 6.866)
+2019-12-20 10:23:39.499 INFO [http-nio-8080-exec-1]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-20 10:23:39.499 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:23:39.512 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 12 ms
+2019-12-20 10:23:48.049 INFO [http-nio-8080-exec-2]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-12-20 10:23:49.474 WARN [http-nio-8080-exec-2]o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.logException:198 -Resolved [java.lang.ArithmeticException: / by zero]
+2019-12-20 10:24:21.461 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarting:50 -Starting FoodSpringBootApplication on DESKTOP-814O8JJ with PID 5564 (E:\Learn\IdeaProjects\FoodSpringBoot\target\classes started by WL in E:\Learn\IdeaProjects\FoodSpringBoot)
+2019-12-20 10:24:21.465 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-12-20 10:24:21.511 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-20 10:24:21.511 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-20 10:24:22.259 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-20 10:24:22.261 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-20 10:24:22.288 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-12-20 10:24:22.648 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb9fab5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-20 10:24:22.973 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-12-20 10:24:22.985 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-20 10:24:22.993 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-12-20 10:24:22.994 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-12-20 10:24:22.999 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-20 10:24:23.000 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-20 10:24:23.000 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-20 10:24:23.000 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-20 10:24:23.003 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-20 10:24:23.115 INFO [restartedMain]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring embedded WebApplicationContext
+2019-12-20 10:24:23.116 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1605 ms
+2019-12-20 10:24:23.423 INFO [restartedMain]org.messaginghub.pooled.jms.JmsPoolConnectionFactory.setConnectionFactory:198 -Provided ConnectionFactory implementation is JMS 2.0+ capable.
+2019-12-20 10:24:23.790 INFO [restartedMain]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-12-20 10:24:23.791 INFO [restartedMain]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-12-20 10:24:24.988 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-20 10:24:25.055 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [public/index.html]
+2019-12-20 10:24:25.101 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-20 10:24:25.411 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-12-20 10:24:25.891 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-12-20 10:24:25.966 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path '/foodspringboot'
+2019-12-20 10:24:25.974 INFO [restartedMain]com.wl.foodspringboot.FoodSpringBootApplication.logStarted:59 -Started FoodSpringBootApplication in 4.881 seconds (JVM running for 6.066)
+2019-12-20 10:24:35.870 INFO [http-nio-8080-exec-1]o.a.c.c.C.[Tomcat].[localhost].[/foodspringboot].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-20 10:24:35.870 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:24:35.877 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 7 ms
+2019-12-20 10:24:40.218 INFO [http-nio-8080-exec-9]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited

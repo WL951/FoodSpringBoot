@@ -1,0 +1,20 @@
+http://127.0.0.1/u9/Print/DynamaticExport.aspx?FilePath=PrintTemp%5c%e5%90%95%e4%b8%bd%5cSalaryAuditDoc_1c534314-b9a6-4834-9c25-d3bca79d36cf.xls&MappingName=SalaryAuditDoc.xls&IsDeleteOrgFile=True&IsAttachment=True
+
+
+http://127.0.0.1/u9/Print/DynamaticExport.aspx?FilePath=PrintTemp%5c%e5%90%95%e4%b8%bd%5cSalaryAuditDoc_8aa483ed-2594-4536-b9bd-9cbe67431bf6.xls&MappingName=SalaryAuditDoc.xls&IsDeleteOrgFile=True&IsAttachment=True
+
+
+http://183.66.65.155:8083/U9/Print/DynamaticExport.aspx?FilePath=PrintTemp%5c%e5%90%95%e4%b8%bd%5cSalaryAuditDoc_7b88c726-c62e-4566-9723-6011a7ab7680.xls&MappingName=SalaryAuditDoc.xls&IsDeleteOrgFile=True&IsAttachment=True
+
+
+D:\Oracle\app\product\11.2.0\client_1\bin
+
+
+mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.1.0 -Dpackaging=jar -Dfile=D:\Oracle\app\product\11.2.0\dbhome_1\jdbc\lib\ojdbc6.jar
+
+
+    <dependency>
+      <groupId>org.apache.struts</groupId>
+      <artifactId>struts2-json-plugin</artifactId>
+      <version>${struts2.version}</version>
+    </dependency>

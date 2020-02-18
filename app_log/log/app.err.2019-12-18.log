@@ -1,0 +1,15 @@
+2019-12-18 13:40:31.877 ERROR[restartedMain]o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:40 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  redisKeyExpirationListener defined in file [E:\Learn\IdeaProjects\FoodSpringBoot\target\classes\com\wl\foodspringboot\Utils\RedisKeyExpirationListener.class]
+└─────┘
+
+

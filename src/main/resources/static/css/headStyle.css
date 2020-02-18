@@ -1,0 +1,22 @@
+/*头部加宽 */
+.top-nav .container{
+    max-width:1519px;
+    width:90%;
+}
+
+/* 修改登录注册的样式*/
+.navbar-light .navbar-nav .login-register{
+    padding-left:4em;
+    padding-top:0.8em;
+    color: #fff;
+}
+
+li.nav-item.login-register a{
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .login-register a:link{
+    color: #fff !important;
+}
+

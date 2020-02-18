@@ -1,0 +1,63 @@
+body{
+    background-color: #1b1b1b;
+}
+.slider{
+    height:44em;
+}
+
+.slider-img1{
+    min-height: 44em;
+}
+
+.slider .container .login{
+    font-size: 20px;
+    margin-top: 10em;
+    height:30em;
+    color: #fff;
+}
+
+.login .contact-formdata{
+    text-align: center
+}
+
+.login .input-field{
+    margin-top: 3em;
+}
+
+.login input{
+    background: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: #fff;
+    caret-color: #fff;/*标签input，光标颜色*/
+    color: #fff;
+}
+
+/*标签input聚焦时不显示边框（淡蓝色）*/
+.login input:focus{
+    outline:none;
+}
+
+
+.login button{
+    width: 4em;
+    border: none;
+    margin-right:30px;
+    margin-left: 30px;
+    cursor:pointer;/*鼠标悬停按钮上，变手形*/
+}
+
+.login input::-moz-placeholder{
+    color: #fff;
+}
+
+footer .container.py-3.py-md-4{
+     height:0em;
+     padding-top: 0rem !important;
+     padding-bottom: 0rem !important;
+
+ }
+
+
+
